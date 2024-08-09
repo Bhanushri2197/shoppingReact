@@ -1,0 +1,142 @@
+.firstFoldBlock{
+  height: 400px;
+  background-image: url(/src/assets/first-fold-img.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.innerContent{
+  background: #00000063;
+  color: #fff;
+  height: 100%;
+  flex-direction: column;
+}
+.innerContent .heading{
+  font-size: 45px;
+}
+.navbar{
+  position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #ff5e95 ;
+    padding: 0;
+}
+.navbar-brand,.nav-link{
+  color: #fff;
+}
+.nav-link{
+  border-bottom: 3px solid transparent;
+  padding: 15px;
+}
+.nav-link.active{
+    border-color: #fff;
+}
+.cartBtn{
+  background: #fff;
+  color: #5f5f5f;
+  padding: 6px 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px #c7c7c7;
+}
+.innerContent .descrip{
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.dropdown-toggle::after{
+  margin-left: 8px;
+    border-top: .4em solid;
+    border-right: .4em solid transparent;
+    border-left: .4em solid transparent;
+    position: relative;
+    top: 3px;
+}
+.productsBlock{
+  background-color: #fff1f4;
+  padding: 70px 0;
+}
+.productCard{
+  width: 210px;
+  margin: 30px 15px;
+  box-shadow: 1px 1px 8px #dadada;
+  border: 1px solid #e7e7e7;
+  border-radius: 15px;
+  padding: 10px 15px 20px;
+}
+.sale{
+  position: absolute;
+    background: #000000cf;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    right: 0px;
+}
+.card-body{
+  padding: 0;
+  text-align: center;
+}
+.card-img-top{
+height: 180px;
+}
+.cardTitle{
+  font-size: 18px;
+  color: #e07679;
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+.priceValue{
+  font-size: 19px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.offerValue{
+  color:#b5b5b5;
+}
+.outOfStock{
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #88888894;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.imageBlock{
+    height: 180px;
+    position: relative;
+}
+.btnPrimary{
+  background: #ff5e95;
+    color: #fff;
+    font-size: 13px;
+    box-shadow: 1px 1px 4px #8a8a8a;
+}
+.btnPrimary:hover{
+  background: #ef246a;
+  color: #fff;
+}
+.cardBadge{
+  background: #ff5e95;
+  border: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  line-height: 13px;
+
+}
+.cardDropDown .dropdown-menu{
+  right: 0;
+    left: auto;
+    width: 300px;
+    padding: 15px;
+}
+.cardDropDown .dropdown-toggle::after{
+  display: none;
+}
+
+
